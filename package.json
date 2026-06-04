@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist",
+    "deploy": "vite build --base=/gaokao-wall/ && gh-pages -d dist",
     "homepage": "https://su3ans4id.github.io/gaokao-wall"
   },
   "dependencies": {
